@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #d2691e;
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .logo {
+      width: 12%;
+      height: 20vh;
+      padding-top: 10px;
+    }
+
+    img {
+      width: 4%;
+      height: 10vh;
+      padding-top: 20px;
+    }
+
+    ul {
+      width: 60%;
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    li {
+      list-style: none;
+      font-size: 1.6rem;
+      color: black;
+      font-family: "Roboto Serif", serif;
+    }
+  }
+}
+
+/* estilização da main */
+main {
+  display: flex;
+  height: 90vh;
+  background-color: #ffd9bd;
+
+  .img-card {
+    /* border: solid green; */
+    width: 80%;
+    border-radius: 5px;
+  }
+}
+
+.card {
+  /* border: solid rgb(15, 0, 128); */
+  width: 40%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .buttonClass {
+    font-size: 19px;
+    font-family: "Times New Roman", Times, serif;
+    width: 145px;
+    height: 50px;
+    border-width: 1px;
+    color: black;
+    /* font-weight: bold; */
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    background: linear-gradient(#d77009, rgb(243, 170, 75));
+  }
+
+  .buttonClass:hover {
+    background: linear-gradient(rgb(98, 53, 6), #8b4513);
+  }
+
+  .icons-card {
+    /* border: solid; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    h2 {
+      font-size: 1.8rem;
+    }
+
+    img {
+      height: 7vh;
+      width: 19%;
+    }
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #8b4513;
+  height: 10vh;
+
+  button {
+    font-size: 19px;
+    font-family: "Times New Roman", Times, serif;
+    width: 145px;
+    height: 40px;
+    border-width: 1px;
+    color: black;
+    /* font-weight: bold; */
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    background: linear-gradient(#d77009, rgb(243, 170, 75));
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+}
